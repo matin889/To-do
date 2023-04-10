@@ -8,7 +8,9 @@ body {
   background: #c3bdbd;
   color: #ffffff;
 }
-
+ul {
+  list-style: none;
+}
 .container {
   margin: 100px auto;
   display: flex;
@@ -16,4 +18,33 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.buttonsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.editButton {
+  background: #ffffff;
+  color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+.editButton:hover {
+  background: #08913162;
+  color: #ffffff;
+}
+.deleteButton {
+  background: #ffffff;
+  color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+.deleteButton:hover {
+  background: #e23535;
+  color: #ffffff;
 }
