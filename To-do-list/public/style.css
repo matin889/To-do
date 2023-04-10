@@ -19,6 +19,14 @@ ul {
   align-items: center;
   gap: 10px;
 }
+h1 {
+  color: yellow;
+}
+.addForm {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
 .buttonsDiv {
   display: flex;
@@ -28,11 +36,16 @@ ul {
   padding: 10px;
 }
 
-.editButton {
+.editButton,
+.addButton {
   background: #ffffff;
   color: blue;
   padding: 5px;
   border-radius: 5px;
+}
+.addButton:hover {
+  background: #4506da62;
+  color: #ffffff;
 }
 .editButton:hover {
   background: #08913162;

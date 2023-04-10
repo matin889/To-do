@@ -68,10 +68,12 @@ const TodoList = () => {
   return (
     <div className="container">
       <h1>Todo List</h1>
-      <form onSubmit={handleSubmit}>
+      <form className="addForm" onSubmit={handleSubmit}>
         <label htmlFor="">Add a todo: </label>
         <input type="text" onChange={handleChange} value={input} />
-        <button type="submit">Add</button>
+        <button className="addButton" type="submit">
+          Add
+        </button>
       </form>
       <ul>
         {todos.map((item) => {
